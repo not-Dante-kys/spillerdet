@@ -2,8 +2,11 @@
 
 [ext_resource type="Script" uid="uid://dxjh67f7pe8bt" path="res://script/killzone_enemies.gd" id="1_cm2g8"]
 
-[node name="Area2D" type="Area2D" unique_id=99228538]
+[node name="killzone_enemies" type="Area2D" unique_id=99228538]
+collision_mask = 2
 script = ExtResource("1_cm2g8")
 
 [node name="Timer" type="Timer" parent="." unique_id=236634437]
 wait_time = 0.6
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
