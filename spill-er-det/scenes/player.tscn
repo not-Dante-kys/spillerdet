@@ -190,7 +190,7 @@ shape = SubResource("CircleShape2D_mc8vh")
 wait_time = 0.6
 
 [node name="hurt_timer" type="Timer" parent="." unique_id=1620209735]
-wait_time = 5.0
+wait_time = 2.0
 
 [connection signal="timeout" from="kill_timer" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="hurt_timer" to="." method="_on_hurt_timer_timeout"]

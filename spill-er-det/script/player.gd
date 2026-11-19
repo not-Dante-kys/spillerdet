@@ -6,7 +6,7 @@ extends CharacterBody2D
 
 const SPEED = 130.0
 const JUMP_VELOCITY = -300.0
-var health = 5
+var health = 3
 var hurt: bool = false
 
 func take_dmg():

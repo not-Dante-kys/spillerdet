@@ -25,6 +25,7 @@ Music="*uid://b74n5vmy2wv0b"
 
 [display]
 
+window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
